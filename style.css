@@ -36,28 +36,21 @@ img{
     left: 210px;
     top: 140px;
     border-radius: 50%;
-    transition: transform 5s ease;
 }
 
 .item-container>.btn1:hover~img{
+    transition: transform 5s ease;
     transform: rotate(720deg);
 }
 .item-container>.btn2:hover~img{
+    transition: transform 5s ease;
     transform: rotate(1440deg);
 }
 .item-container>.btn3:hover~img{
+    transition: transform 5s ease;
     transform: rotate(2160deg);
 }
 .item-container>.btn4:hover~img{
+    transition: transform 5s ease;
     transform: rotate(2880deg);
-}
-
-.msg{
-    color: #0f0f0f;
-    font-size: 28px;
-    font-style: oblique;
-    font-weight: 700;
-    position: absolute;
-    bottom: 20px;
-    left: 225px;
 }
